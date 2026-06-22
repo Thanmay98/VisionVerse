@@ -7,6 +7,9 @@ public class VisionSwitcher : MonoBehaviour
     public VolumeProfile normalVisionProfile;
     public VolumeProfile myopiaProfile;
     public VolumeProfile hyperopiaProfile;
+    public VolumeProfile presbyopiaProfile;
+    public VolumeProfile colorBlindGrayscaleProfile;
+    public VolumeProfile colorBlindRedGreenProfile;
 
     public void SetNormalVision()
     {
@@ -21,5 +24,19 @@ public class VisionSwitcher : MonoBehaviour
     public void SetHyperopia()
     {
         globalVolume.profile = hyperopiaProfile;
+    }
+    public void SetPresbyopia()
+    {
+        globalVolume.profile = presbyopiaProfile;
+    }
+
+    public void SetColorBlindGrayscale()
+    {
+        globalVolume.profile = colorBlindGrayscaleProfile;
+    }
+
+    public void SetColorBlindRedGreen()
+    {
+        globalVolume.profile = colorBlindRedGreenProfile;
     }
 }
