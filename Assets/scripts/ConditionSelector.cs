@@ -29,7 +29,19 @@ public class ConditionSelector : MonoBehaviour
 
     public void SelectColorBlindness()
     {
-        ConditionManager.selectedCondition = "Color";
+        // Intentionally does nothing here now —
+        // this button will instead show the color blindness sub-menu (wired separately in Unity)
+    }
+
+    public void SelectColorGrayscale()
+    {
+        ConditionManager.selectedCondition = "ColorGrayscale";
+        SceneManager.LoadScene("Classroom");
+    }
+
+    public void SelectColorRedGreen()
+    {
+        ConditionManager.selectedCondition = "ColorRedGreen";
         SceneManager.LoadScene("Classroom");
     }
 }

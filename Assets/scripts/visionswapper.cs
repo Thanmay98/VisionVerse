@@ -39,4 +39,28 @@ public class VisionSwitcher : MonoBehaviour
     {
         globalVolume.profile = colorBlindRedGreenProfile;
     }
+    void Start()
+{
+    switch (ConditionManager.selectedCondition)
+    {
+        case "Normal":
+            SetNormalVision();
+            break;
+        case "Myopia":
+            SetMyopia();
+            break;
+        case "Hyperopia":
+            SetHyperopia();
+            break;
+        case "Presbyopia":
+            SetPresbyopia();
+            break;
+        case "ColorGrayscale":
+            SetColorBlindGrayscale();
+            break;
+        case "ColorRedGreen":
+            SetColorBlindRedGreen();
+            break;
+    }
+}
 }
