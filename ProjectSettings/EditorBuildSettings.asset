@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Classroom.unity
     guid: 9e213c8865762a248975178621a9ee81
   - enabled: 1
+    path: Assets/Scenes/quizdifficulty.unity
+    guid: a74101a2567e6b9469dc361a98cb0a73
+  - enabled: 1
+    path: Assets/Scenes/quizscene.unity
+    guid: 87ad9a7e90e82e6408d2d0030b63691c
+  - enabled: 1
+    path: Assets/Scenes/quizresult.unity
+    guid: caebc8006a238ac408f9125fc13c4473
+  - enabled: 1
+    path: Assets/Scenes/easyUI.unity
+    guid: 56267c22da58b674bacbd4305fb4e961
+  - enabled: 1
+    path: Assets/Scenes/mediumUI.unity
+    guid: b35221f938429584ea8b78dd1b15b916
+  - enabled: 1
+    path: Assets/Scenes/hardUI.unity
+    guid: 691d0f446ebca5e4f9cc2877be783ea4
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

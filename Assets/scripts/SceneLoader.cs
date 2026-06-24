@@ -21,4 +21,21 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Classroom");
     }
+    public void LoadQuizDifficulty()
+    {
+        SceneManager.LoadScene("quizdifficulty");
+    }
+    public void LoadeasyUI()
+    {
+        SceneManager.LoadScene("easyUI");
+    }
+    public void LoadMediumUI()
+    {
+        SceneManager.LoadScene("mediumUI");
+    }
+
+    public void LoadHardUI()
+    {
+        SceneManager.LoadScene("hardUI");
+    }
 }
