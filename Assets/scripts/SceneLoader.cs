@@ -42,4 +42,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Chatbot");
     }
+    public void ExitApplication()
+    {
+        Debug.Log("Application Closed");
+
+        Application.Quit();
+    }
 }
