@@ -38,4 +38,14 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("hardUI");
     }
+    public void LoadChatbot()
+    {
+        SceneManager.LoadScene("Chatbot");
+    }
+    public void ExitApplication()
+    {
+        Debug.Log("Application Closed");
+
+        Application.Quit();
+    }
 }

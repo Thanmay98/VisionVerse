@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/hardUI.unity
     guid: 691d0f446ebca5e4f9cc2877be783ea4
   - enabled: 1
+    path: Assets/Scenes/Chatbot.unity
+    guid: c7141637b2b012140af04fbe14c3daa8
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
