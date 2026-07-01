@@ -14,7 +14,7 @@ public class GroqAIHelper : MonoBehaviour
     [Tooltip("Get your free API key from https://console.groq.com/keys")]
     [System.NonSerialized]
 
-    // public string apiKey = "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";
+    
     private string apiKey = "";
 
     void Awake()
