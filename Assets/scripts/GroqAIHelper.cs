@@ -12,7 +12,9 @@ public class GroqAIHelper : MonoBehaviour
 {
     [Header("Groq API Settings")]
     [Tooltip("Get your free API key from https://console.groq.com/keys")]
-    public string apiKey = "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";
+    [System.NonSerialized]
+
+    public string apiKey = "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";
 
     private const string apiUrl = "https://api.groq.com/openai/v1/chat/completions";
     private const string model = "llama-3.3-70b-versatile";
