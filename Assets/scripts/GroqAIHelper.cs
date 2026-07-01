@@ -19,16 +19,16 @@ public class GroqAIHelper : MonoBehaviour
 
     void Awake()
     {
-        // Load key from local file that is git-ignored
-        string path = System.IO.Path.Combine(
-            System.IO.Directory.GetCurrentDirectory(), 
-            "groq_key.txt");
-        
-        if (System.IO.File.Exists(path))
-            apiKey = System.IO.File.ReadAllText(path).Trim();
-        else
-            Debug.LogError("groq_key.txt not found! Create it in your project root folder.");
-    }
+    // Load key from local file that is git-ignored
+    string path = System.IO.Path.Combine(
+        System.IO.Directory.GetCurrentDirectory(), 
+        "groq_key.txt");
+    
+    if (System.IO.File.Exists(path))
+        apiKey = System.IO.File.ReadAllText(path).Trim();
+    else
+        Debug.LogError("groq_key.txt not found! Create it in your project root folder.");
+}
 
     private const string apiUrl = "https://api.groq.com/openai/v1/chat/completions";
     private const string model = "llama-3.3-70b-versatile";
